@@ -37,6 +37,11 @@
             bindings = <&kp LG(LS(D))>;
             key-positions = <0 12 24>;
         };
+
+        clear_all_bluetooth {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <0 1 2 3 4 5 36 37 38>;
+        };
     };
 
     keymap {
