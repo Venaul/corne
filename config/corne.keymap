@@ -55,7 +55,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC         &kp Q             &kp W  &kp F               &kp P             &kp G          &kp J      &kp L                        &kp U      &kp Y    &kp APOS              &none
+&kp ESC         &kp Q             &kp W  &kp F               &kp P             &kp G          &kp J      &kp L                        &kp U      &kp Y    &kp APOS              &trans
 &kp TAB         &kp A             &kp R  &kp S               &kp T             &kp D          &kp H      &kp N                        &kp E      &kp I    &kp O                 &none
 &kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X  &kp C               &kp V             &kp B          &kp K      &kp M                        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH  &none
                                          &mt LEFT_ALT TILDE  &mt LCTRL DELETE  &lt 1 SPACE    &lt 2 RET  &mt LC(BACKSPACE) BACKSPACE  &none
@@ -70,10 +70,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp HOME       &kp N1               &kp N2          &kp N3          &kp N4           &kp N5           &kp N6             &kp N7  &kp N8  &kp N9  &kp N0      &none
-&kp PAGE_UP    &kp TAB              &kp LEFT_ARROW  &kp UP          &kp RIGHT_ARROW  &kp LG(LS(S))    &kp C_VOLUME_UP    &kp N4  &kp N5  &kp N6  &kp SEMI    &trans
-&kp PAGE_DOWN  &mt LEFT_SHIFT CAPS  &trans          &kp DOWN_ARROW  &kp C_PREVIOUS   &kt C_NEXT       &kp C_VOLUME_DOWN  &kp N1  &kp N2  &kp N3  &kp PERIOD  &trans
-                                                    &trans          &trans           &trans           &kp RET            &kp N0  &trans
+&kp LC(NUMBER_1)  &kp N1               &kp N2          &kp N3          &kp N4           &kp N5           &kp N6             &kp N7  &kp N8  &kp N9  &kp N0      &none
+&kp LC(NUMBER_2)  &kp TAB              &kp LEFT_ARROW  &kp UP          &kp RIGHT_ARROW  &kp LG(LS(S))    &kp C_VOLUME_UP    &kp N4  &kp N5  &kp N6  &kp SEMI    &trans
+&kp LC(NUMBER_3)  &mt LEFT_SHIFT CAPS  &trans          &kp DOWN_ARROW  &kp C_PREVIOUS   &kt C_NEXT       &kp C_VOLUME_DOWN  &kp N1  &kp N2  &kp N3  &kp PERIOD  &trans
+                                                       &trans          &trans           &trans           &kp RET            &kp N0  &trans
             >;
         };
 
